@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17700" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item Details View Controller-->
+        <scene sceneID="lFM-9b-WI7">
+            <objects>
+                <viewController storyboardIdentifier="ItemDetailsViewController" id="h5Z-7J-am3" customClass="ItemDetailsViewController" customModule="DubbzilTask_WaleedMahmoud" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PdW-nh-fhW"/>
+                        <viewControllerLayoutGuide type="bottom" id="woq-Ku-IXG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="APW-EF-yb9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mQL-SC-PSC">
+                                <rect key="frame" x="16" y="8" width="343" height="302"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cars CarsCars CarsCars CarsCars Cars" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJx-0x-Fj8">
+                                <rect key="frame" x="16" y="318" width="343" height="44"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 AED" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9w1-ov-H9v">
+                                <rect key="frame" x="16" y="370" width="343" height="22"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="19"/>
+                                <color key="textColor" red="0.24905133376093208" green="0.70416406188348324" blue="0.21967031795199987" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 AED" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="454-0S-DPf">
+                                <rect key="frame" x="16" y="400" width="343" height="17.5"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="454-0S-DPf" firstAttribute="trailing" secondItem="9w1-ov-H9v" secondAttribute="trailing" id="9e2-9C-MgH"/>
+                            <constraint firstItem="SJx-0x-Fj8" firstAttribute="trailing" secondItem="mQL-SC-PSC" secondAttribute="trailing" id="OCQ-eR-VF1"/>
+                            <constraint firstItem="mQL-SC-PSC" firstAttribute="top" secondItem="PdW-nh-fhW" secondAttribute="bottom" constant="8" id="TM8-Go-r3z"/>
+                            <constraint firstItem="9w1-ov-H9v" firstAttribute="trailing" secondItem="SJx-0x-Fj8" secondAttribute="trailing" id="ViK-sJ-dmo"/>
+                            <constraint firstItem="9w1-ov-H9v" firstAttribute="leading" secondItem="SJx-0x-Fj8" secondAttribute="leading" id="WII-Pu-sQe"/>
+                            <constraint firstItem="454-0S-DPf" firstAttribute="leading" secondItem="9w1-ov-H9v" secondAttribute="leading" id="YlG-li-Uq2"/>
+                            <constraint firstItem="454-0S-DPf" firstAttribute="top" secondItem="9w1-ov-H9v" secondAttribute="bottom" constant="8" id="b5L-n3-BLW"/>
+                            <constraint firstItem="mQL-SC-PSC" firstAttribute="centerX" secondItem="APW-EF-yb9" secondAttribute="centerX" id="dVe-F7-XC7"/>
+                            <constraint firstItem="SJx-0x-Fj8" firstAttribute="top" secondItem="mQL-SC-PSC" secondAttribute="bottom" constant="8" id="erM-Eh-Ehh"/>
+                            <constraint firstItem="9w1-ov-H9v" firstAttribute="top" secondItem="SJx-0x-Fj8" secondAttribute="bottom" constant="8" id="giV-mq-FGc"/>
+                            <constraint firstItem="SJx-0x-Fj8" firstAttribute="leading" secondItem="mQL-SC-PSC" secondAttribute="leading" id="hqf-Zp-NHK"/>
+                            <constraint firstItem="mQL-SC-PSC" firstAttribute="leading" secondItem="APW-EF-yb9" secondAttribute="leadingMargin" id="nah-Er-KJX"/>
+                            <constraint firstItem="mQL-SC-PSC" firstAttribute="height" secondItem="APW-EF-yb9" secondAttribute="height" multiplier="0.452774" id="p1e-Lz-XKx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="itemDateCreatedLbl" destination="454-0S-DPf" id="PTj-cx-rUt"/>
+                        <outlet property="itemImage" destination="mQL-SC-PSC" id="qAV-Jw-GUt"/>
+                        <outlet property="itemName" destination="SJx-0x-Fj8" id="QIq-W2-oRe"/>
+                        <outlet property="itemPriceLbl" destination="9w1-ov-H9v" id="C70-Kh-MkP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPz-OH-eTA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-828" y="-44"/>
+        </scene>
+    </scenes>
+</document>

@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  DubbzilTask_WaleedMahmoud
 //
-//  Created by Waleed on 11/19/20.
+//  Created by Waleed on 20/11/2020.
 //  Copyright © 2020 Waleed. All rights reserved.
 //
 
@@ -12,12 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Do any additional setup after loading the view.
     }
 
 
